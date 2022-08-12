@@ -1,0 +1,24 @@
+{
+    "name": "isamarin/fastsite-visually-impaired-plugin",
+    "type": "cetera-cms-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Samarin",
+            "email": "mako.mmw@gmail.com",
+            "role": "Senior Developer"
+        }
+    ],
+    
+    "minimum-stability": "dev",
+    
+    "autoload": {
+        "psr-4": { 
+			"VI\\": "classes/"
+		}
+    },
+
+    "extra": {
+        "description": "The visually impaired plugin for Fastsite CMS"
+    }
+}
